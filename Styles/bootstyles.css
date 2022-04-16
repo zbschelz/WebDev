@@ -1,0 +1,62 @@
+/* Custom Tableau Styles and Organization*/
+.custom1 {
+    color: #212529;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .custom2 {
+        color: #212529;
+        font-weight: lighter;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .custom3 {
+        color: #212529;
+        font-weight: 100;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .customtitle {
+        font-size:50px;
+        font-weight: bold;
+    }
+    .tableau-footer {
+        position:absolute ;
+        left: 0;
+        bottom: -260%;
+        width: 100%;
+        color: #212529;
+        text-align: center;
+    }
+    .cusotom-header {
+        color: #ffffff;
+        font-weight: bold;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .tab-footer-txt {
+        color: #ca786d;
+        font-weight: bold;
+    }
+    .tableau-main {
+        top: 50%;
+        left: 26%;
+        right: 26%;
+        height: 300%;
+    }
+    .tableau-header {
+    top: 8%;
+    left: 5%;
+    right: 5%;
+    height: 35px;
+    text-align: right;
+    color: #ffffff;
+    font-weight: bold;
+    }
+    .tableau-title {
+    top: opx;
+    left: 0%;
+    right: 0%;
+    height: 360px;
+    text-align: center;
+    background-image:url(../assets/images/globe.jpg);
+    background-size: 100%;
+    }
