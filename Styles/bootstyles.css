@@ -3,11 +3,13 @@
     color: #212529;
     font-weight: bold;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
     }
     .custom2 {
         color: #212529;
         font-weight: lighter;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        position: absolute;
     }
     .custom3 {
         color: #212529;
@@ -19,9 +21,9 @@
         font-weight: bold;
     }
     .tableau-footer {
-        position:absolute ;
-        left: 0;
-        bottom: -260%;
+        left: 0%;
+        right: 0%;
+        top: 350%;
         width: 100%;
         color: #212529;
         text-align: center;
@@ -46,17 +48,21 @@
     top: 8%;
     left: 5%;
     right: 5%;
-    height: 35px;
+    height: 4%;
     text-align: right;
     color: #ffffff;
     font-weight: bold;
     }
     .tableau-title {
-    top: opx;
+    top: 0%;
     left: 0%;
     right: 0%;
-    height: 360px;
+    height: 35%;
     text-align: center;
     background-image:url(../assets/images/globe.jpg);
     background-size: 100%;
+    position: absolute;
+    }
+    .tabflex {
+        flex: auto;
     }
