@@ -27,6 +27,8 @@
         width: 100%;
         color: #212529;
         text-align: center;
+        position: absolute;
+        z-index: 100;
     }
     .cusotom-header {
         color: #ffffff;
@@ -66,3 +68,5 @@
     .tabflex {
         flex: auto;
     }
+    /* &nbsp;  addd for blank space*/
+    #page-main { flex-grow: 1; }

@@ -18,12 +18,13 @@
     box-sizing: border-box;
 }
 .shortbio {
-    top:70%;
+    /* top:70%;
     left: 26%;
     right: 40%;
     height: 500px;
     word-wrap: break-word;
     text-align: justify;
+    position: relative; */
 }
 .mypicturelayout {
     top: 660px;
@@ -31,6 +32,14 @@
     right: 50%;
     height: 300px;
 }
+.footer {
+    position:absolute ;
+    left: 0;
+    /* bottom: -800px; */
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
 .section-p {
     text-align: justify;
 }
@@ -66,14 +75,6 @@ hr.solid {
 .social-icon:hover {
     color: hsla(9, 75%, 61%, 0.527);
 }
-.footer {
-    position:absolute ;
-    left: 0;
-    /* bottom: -800px; */
-    width: 100%;
-    color: white;
-    text-align: center;
- }
  .about-footer {
     position:absolute ;
     left: 0;
@@ -111,20 +112,12 @@ hr.solid {
     height: 410px;
 }
 .seeresume {
-    top: 135%;
-    right: 26%;
-    left: 60%;
-    height: 40px;
-    /* border: solid 2px #212529; 
-    background: #fe5e55; */
+    top: 152%; 
+  
 }
 .seeaboutme {
-    top: 130%;
-    right: 26%;
-    left: 60%;
-    height: 40px;
-    /* border: solid 2px #212529; 
-    background: #fe5e55; */
+    top: 145%;
+    
 }
 .seeresumetext {
     text-align: center;
@@ -150,3 +143,17 @@ hr.solid {
 .aligncenter {
     text-align: center;
 }
+.tabflex {
+    flex: auto;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:26%;
+    width: 34%;
+}
+#wrapperbuttons {
+    margin-left:26%;
+    margin-right:auto;
+    width: 20%;
+}
+#page-main { flex-grow: 1; }
