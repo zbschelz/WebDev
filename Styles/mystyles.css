@@ -1,5 +1,5 @@
 /* <!-- Zach Schelin -->
-<!-- Lasted Edited 12:18pm on 4/15/2022 --> */
+<!-- Lasted Edited 7:57pm on 4/16/2022 --> */
 /* My Custom Styles*/
 .backgroundcolor {
     background-color: #def7fa
@@ -16,15 +16,6 @@
     border-radius: 10%;
     margin: 10px;
     box-sizing: border-box;
-}
-.shortbio {
-    /* top:70%;
-    left: 26%;
-    right: 40%;
-    height: 500px;
-    word-wrap: break-word;
-    text-align: justify;
-    position: relative; */
 }
 .mypicturelayout {
     top: 660px;
@@ -139,7 +130,6 @@ hr.solid {
         /* background-color: antiquewhite;
         border: solid 2px black; */
     }
-    
 .aligncenter {
     text-align: center;
 }
